@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.header{
+    height:400px;
+    width: 1800px;
+    background-image: url(../imagens-da-pagina/paisagem--large.jpg);
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+     margin-left: 10%;
+    margin-right: 10%;
+     margin-bottom: 40px;
+    border-bottom: 5px solid rgb(20, 60, 77);
+}
+
+.primeira{
+    height:400px;
+    width: 900px;
+    background-image: url(../imagens-da-pagina/primeira-viagem.jpg);
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
+#bota{
+    background: rgba(243, 239, 19, 0.733);
+padding: 10px 25px;
+color: rgb(6, 60, 78);
+border-radius: 5px ;
+margin-right: 10px ;
+ text-decoration: none;
+ margin-left: 5%;
+}
+#bota:hover{
+    border: none;
+    background:  rgb(6, 60, 78);
+    color: rgb(243, 239, 19, 0.733);
+
+}
+.h3{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center; 
+    
+   
+}
+.headline{
+    flex: 25%;
+    margin-right: 25%;
+   
+}
+.img-headline{
+    margin-left: 15%;
+    flex: 35%;   
+    text-align: center;
+}
+
+.headline h4{font-weight: 1000px;
+    font-size: 18px;
+    color: rgb(6, 60, 78);
+
+}
+
+
+
+
+   
+   
+ 

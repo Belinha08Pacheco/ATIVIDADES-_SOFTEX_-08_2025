@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;     
+    flex-flow: row wrap;         
+    margin-right: 20%;
+    width: 100%;
+   
+}
+.logo{
+    flex: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+   text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.logo h1{
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: rgb(222, 239, 240);
+font-size: 13px;
+  
+
+}
+.logo h1:hover{
+    color: rgb(40, 154, 219) ;
+    
+}
+ .menu{
+    flex: 40%;
+     text-align: right ;
+    padding: 15px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .menu a{
+     color:rgb(6, 60, 78);
+     text-decoration: none;
+     font-size: 13px;
+     padding: 20% 6% ;
+
+ }
+ .menu a:hover{
+    color: rgb(40, 154, 219) ;
+    border-top: 4px solid rgb(40, 154, 219) ;
+
+ }
+#botao{
+    background: rgb(10, 58, 90);
+padding: 8px 20px;
+color: rgb(222, 227, 231);
+border-radius: 5px ;
+margin-right: 10px ;
+ text-decoration: none;
+ margin-left: 5%;
+}
+#botao:hover{
+    border: none;
+    background: rgb(222, 227, 231);
+    color:  rgb(40, 154, 219);
+   
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(45, 68, 78);
+  
+}
+ 
