@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6d0d0;
+}
+h1{ word-spacing: 10px;
+    font-size: 30px;
+    text-align: center;
+   padding: 2%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 span{
+    color: #007bff;
+}
+
+.botao{
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+  display: flex;
+    justify-content: center; 
+     flex: 15%;
+   position:center;
+   gap: 150px;  
+   
+ 
+}
+.botao:hover, a:active { 
+  color: #007bff;
+  font-size:150%;
+}
+
+.imagem{
+   margin-bottom: 20px; 
+ 
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+   display: flex;
+   
+}
+
+   
+
+.card{
+   
+     display: flex;
+    width: 30%;
+    padding: 5px;
+    margin: 1%;
+     text-decoration: underline;
+      cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;   
+    font-size: 40px;         
+justify-content: center;
+align-items: center;
+background-position: center;   
+     background-size: cover;         
+    padding: 5%;  }
+     
+ 
+ 
+
+.img02{
+  display: flex;
+ 
+    width: 100%;
+    border-radius: 10%;
+    height: 200px;  
+   justify-content: center;
+}
+.card:hover{
+    background: #007bff;
+    color: rgb(222, 227, 231);
+    padding: 3%;
+    
+        
+
+}
